@@ -3,18 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package grafos;
+package grafos1;
 
 /**
  *
- * @author Junior
+ * @author aluno
  */
 public class Aresta {
-    Vertice saida;
-    Vertice entrada;
-
-    Aresta(Vertice saida, Vertice entrada){  
-        this.saida = saida;
-        this.entrada = entrada;
+    int vertice;
+    double peso;
+    
+    public Aresta(int vertice, double peso){
+        this.peso = peso;
+        this.vertice = vertice;
     }
+    
 }
