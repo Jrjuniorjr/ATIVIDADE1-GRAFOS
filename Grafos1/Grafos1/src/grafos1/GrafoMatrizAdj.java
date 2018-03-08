@@ -29,7 +29,7 @@ public class GrafoMatrizAdj {
     public void imprimirTela() {
         for(int i = 0; i < qtdVertices; i++){
             for(int j = 0; j < qtdVertices; j++){
-                System.out.print(matrizAdj[i][j] + " ");
+                System.out.print(this.matrizAdj[i][j] + " ");
             }
             System.out.println();
         }

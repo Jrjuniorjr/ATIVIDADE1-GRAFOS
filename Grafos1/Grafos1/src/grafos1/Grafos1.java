@@ -16,7 +16,7 @@ public class Grafos1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        GrafoLista grafo = new GrafoLista(5);
+        /*GrafoLista grafo = new GrafoLista(5);
         grafo.addAresta(0, 0, 5);
         grafo.addAresta(0, 2, 5);
         grafo.addAresta(0, 3, 5);
@@ -28,6 +28,13 @@ public class Grafos1 {
         GrafoMatrizAdj grafo2 = transformacao.transformarListaParaMatrizAdj();
         grafo2.imprimirTela();
 
+*/
+        GrafoMatrizDeIncidencia grafo1 = new GrafoMatrizDeIncidencia(4, 3);
+        grafo1.addAresta(0, 0);
+        grafo1.addAresta(3, 2);
+        grafo1.addAresta(2, 1);
+        grafo1.addAresta(2, 0);
+        grafo1.imprimirTela();
     }
     
 }
